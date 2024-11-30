@@ -1,0 +1,26 @@
+{
+    "homePage" : {
+        "myAccountButton" : "#top_main_menu > ul > li:nth-child(1) > a",
+        "emailRadioButton" : "[id=toggle_login_box_user_email]",
+        "emailTextArea" : "[id=tmp_email]",
+        "passwordTextArea" : "[id=pass]",
+        "loginButton" : "[id=btn_login]",
+        "errorMessagePopup" : "div[class*=error]",
+        "errorMessageTitle" : "div[class*=error] > div > div > h2",
+        "errorMessageDetail" : "div[class*=error] > div > div > p"
+    },
+    "loginPage" : {
+        "searchResults" : "#search"
+    },
+    "searchPage" : {
+        "searchTextBox" : "input[class*=search-input]",
+        "searchButton" : "[id=search_submit_button]",
+        "searchedText" : "div.welcome_div > h1",
+        "searchNumberFoundText" : "span[id=num_found]",
+        "noProductFoundText" : "#product_list > center"
+    },
+    "accountPage" : {
+        "accountName" : "tr > :nth-child(1) > h1",
+        "safeLogoutButton" : "div.account-navigation > ul > li:nth-child(4) > a"
+    }
+}
